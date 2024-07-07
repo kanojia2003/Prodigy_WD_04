@@ -1,0 +1,559 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background:linear-gradient( 90deg ,#0000b3, #191919 );
+
+}
+.mainbody{
+ 
+    height: 3000px;
+}
+header{
+    height: 80px;
+    width: 100%;
+
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header h1 i{
+    margin-left: 5rem;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 2rem;
+    color: white;
+ 
+}
+
+.navbar ul li a:hover{
+    text-decoration: underline;
+    transition: .8s ease-in-out;
+}
+.navbar ul li {
+
+    list-style-type: none;
+}
+
+.navbar ul {
+    margin-right: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
+section{
+    height: 700px;
+    display: flex;
+ 
+}
+
+.left-side{
+    height: 700px;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    padding-left:2.5rem ;
+}
+
+.right-side{
+    height: 700px;
+    width: 40%; 
+    display: flex;
+    align-items: center;
+}
+
+.icons {
+    display: flex;
+    flex-direction: column;
+    row-gap: 3rem;
+}
+.icons i{
+    font-size: 2rem;
+    color: white;
+}
+.icons i:hover {
+    font-size:3rem;
+
+}
+.content {
+    padding-left: 5rem;
+}
+.content h3 {
+    font-size:2.3rem ;
+    color: white;
+    margin-bottom: 1rem;
+}
+span{
+    color: rgb(54, 136, 244);
+    display: inline-block;
+    opacity: 0;
+    animation: fadeIn 5s forwards infinite;
+}
+span:nth-child(1) { animation-delay: 0.1s; }
+span:nth-child(2) { animation-delay: 0.2s; }
+span:nth-child(3) { animation-delay: 0.3s; }
+span:nth-child(4) { animation-delay: 0.4s; }
+span:nth-child(5) { animation-delay: 0.5s; }
+span:nth-child(6) { animation-delay: 0.6s; }
+span:nth-child(7) { animation-delay: 0.7s; }
+span:nth-child(8) { animation-delay: 0.8s; }
+span:nth-child(9) { animation-delay: 0.9s; }
+span:nth-child(10) { animation-delay: 0.10s; }
+span:nth-child(11) { animation-delay: 0.11s; }
+span:nth-child(12) { animation-delay: 0.12s; }
+span:nth-child(13) { animation-delay: 0.13s; }
+span:nth-child(14) { animation-delay: 0.14s; }
+span:nth-child(15) { animation-delay: 0.15s; }
+span:nth-child(16) { animation-delay: 0.16s; }
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+.content  h1{
+    font-size: 4rem;
+    color: #5db9ee;
+}
+
+p{
+    font-size: 1.8rem;
+    color: white;
+    max-width: 35rem;
+    margin:1.1rem 0 3rem 0;
+    line-height: 2.5rem;
+}
+
+.btn  button{
+    border: .2rem solid #5db9e0;
+    font-size: 1.8rem;
+    padding:.8rem 1.5rem;
+    border-radius: .5rem;
+    color: white;
+    background-color: #262626;
+    margin-left: 9rem;
+    cursor: pointer;
+    transition:0.5s ease-in-out ;
+}
+
+.btn button:hover{
+    background-color: #5db9e0;
+    color: white;
+    border-color: #262626;
+    
+}
+
+.circle{
+    height: 380px;
+    width: 380px;
+    border-radius:50% ;
+  border: 1.2rem solid white;
+ box-shadow: 0 0 2rem white,inset 0 0 2rem white,0 0 3rem #5db9e0,inset 0 0 3rem #5db9e0 ;
+ background-image: url(nn-modified.png);
+ background-size:cover ;
+ background-repeat: no-repeat;
+}
+/*Skill*/
+.skill {
+    height: 500px;
+    width: 100%;
+    text-align: center;
+}
+
+.skill h1{
+    font-size: 5rem;
+    margin: 80px 0 80px;
+    color: white;
+}
+.Skill {
+    height: 500px;
+    width: 100%;
+}
+.skill .Skill{
+    display: flex;
+justify-content: space-evenly;
+}
+
+.Skill .box1{
+    height: 300px;
+    width: 300px;
+    border-radius: 3rem;
+    border: 0.3rem solid black;
+    box-shadow: 0 0 2rem white,inset 0 0 2rem white,0 0 3rem #5db9e0,inset 0 0 3rem #5db9e0 ;
+
+}
+.Skill .box1 h1 u{
+    font-size: 3rem;
+}
+
+.Skill .box1 h1{
+    margin:1rem 0 1.6rem 0;
+}
+
+.Skill .box1 .LOGO{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.Skill .box1 .LOGO .logo1{
+    height:80px;
+    width: 80px;
+    background-image: url(html.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1rem;
+}
+.Skill .box1 .LOGO .logo2{
+    height:80px;
+    width: 80px;
+    background-image: url(css.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1rem;
+}
+.Skill .box1 .LOGO .logo3{
+    height:80px;
+    width: 80px;
+    background-image: url(js.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1rem;
+}
+
+.Skill .box2{
+    height: 300px;
+    width: 300px;
+    border-radius: 3rem;
+    border: 0.3rem solid black;
+    box-shadow: 0 0 2rem white,inset 0 0 2rem white,0 0 3rem #5db9e0,inset 0 0 3rem #5db9e0 ;
+
+}
+.Skill .box2 h1 u{
+    font-size: 3rem;
+}
+
+.Skill .box2 h1{
+    margin:1rem 0 1.6rem 0;
+}
+
+.Skill .box2 .LOGO{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.Skill .box2 .LOGO .logo1{
+    height:80px;
+    width: 80px;
+    background-image: url(html.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1rem;
+}
+.Skill .box2 .LOGO .logo2{
+    height:80px;
+    width: 80px;
+    background-image: url(css.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1rem;
+}
+.Skill .box2 .LOGO .logo3{
+    height:80px;
+    width: 80px;
+    background-image: url(js.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1rem;
+}
+/*Project*/
+.projects{
+    height: 200px;
+    width: 100%;
+    text-align: center;
+   
+}
+
+.projects h1{
+    font-size: 5rem;
+    margin: 80px 0 80px;
+    color: white;
+}
+
+
+.projects .btns button {
+    font-size: 3rem;
+    background-color: transparent;
+    color: white;
+    border: .3rem solid #262626;
+    border-radius: 1rem;
+    box-shadow: 0 0 .5rem white,inset 0 0 .5rem white,0 0 .8rem #5db9e0,inset 0 0 .8rem #5db9e0 ;
+    cursor: pointer;
+}
+
+.Experience{
+    height: 500px;
+    width: 100%;
+    text-align: center;
+
+}
+
+.Experience h1 {
+    margin: 80px 0 80px;
+    font-size: 5rem;
+    color: white;
+}
+.company{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.company1{
+    height: 100px;
+    width: 600px;
+    border: 2px solid white;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border-radius: 2rem;
+}
+
+.company1 .logo{
+    height: 110px;
+    width: 110px;
+    background-color: #5db9ee;
+    background-image: url(hc.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 1rem;
+}
+.company1 .content1{
+    padding: 0;
+    height: 90px;
+    width: 500px;
+    display: flex;
+}
+
+.Discription{
+    display: flex;
+    flex-direction: column;
+    height: 110px;
+    width: 400px;
+    text-align: left;
+    padding-left:1.5rem ;
+}
+.Discription .heading{
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.816);
+    text-decoration: underline;
+}
+.Discription .para{
+   font-size: 2rem;
+   color: rgba(255, 255, 255, 0.816);
+
+}
+
+
+.company2{
+    height: 110px;
+    width: 600px;
+    border: 2px solid white;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border-radius: 2rem;
+}
+.company2 .logo{
+    height: 110px;
+    width: 110px;
+    background-color: #5db9ee;
+    background-image: url(pi.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 1rem;
+}
+.company2 .content2{
+    padding: 0;
+    height: 90px;
+    width: 500px;
+    display: flex;
+    
+}
+
+.Discription{
+    display: flex;
+    flex-direction: column;
+    height: 110px;
+    width: 400px;
+    text-align: left;
+    padding-left:1.5rem ;
+}
+.Discription .heading{
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.816);
+    text-decoration: underline;
+}
+.Discription .para{
+   font-size: 2rem;
+   color: rgba(255, 255, 255, 0.816);
+}
+/*Education*/
+.Education{
+    height: 1000px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.Education h1{
+    font-size: 80px;
+    margin: 80px;
+    color: white;
+}
+
+
+/*engg*/
+
+.Education .Engg{
+    height: 150px;
+    width: 900px;
+    border: 3px solid white;
+    margin-bottom: 2rem;
+    border-radius: 1.5rem;
+    padding:1.7rem; 
+}
+
+.Engg  .logo{
+    height: 100px;
+    width: 100px;
+    background-image: url(sjcem.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 1.5rem;
+}
+.Engg .details{
+    height: 100px;
+    display: flex;
+}
+.Engg .info{
+    padding-left: 2rem;
+}
+.Engg .heading h2{
+    font-size: 2rem;
+}
+.Engg .para {
+    font-size: 1.6rem;
+    text-align: left;   
+}
+.Engg .duration {
+    font-size: 1.4rem;
+    text-align: left; 
+    margin-top: 0.5rem;
+}
+.Engg .grade{
+    font-size: 1.4rem;
+    text-align: left; 
+    margin-top: 1rem;
+
+}
+
+/*HSC*/
+.Education .HSC{
+    height: 150px;
+    width: 900px;
+    border: 3px solid white;
+    margin-bottom: 2rem;
+    border-radius: 1.5rem;
+    padding:1.7rem; 
+}
+.HSC  .logo{
+    height: 100px;
+    width: 100px;
+    background-image: url(pancham.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 1.5rem;
+}
+.HSC .details{
+    height: 100px;
+    display: flex;
+}
+.HSC .info{
+    padding-left: 2rem;
+}
+.HSC .heading h2{
+    font-size: 2rem;
+}
+.HSC .para {
+    font-size: 1.6rem;
+    text-align: left;   
+}
+.HSC .duration {
+    font-size: 1.4rem;
+    text-align: left; 
+    margin-top: 0.5rem;
+}
+.HSC .grade{
+    font-size: 1.4rem;
+    text-align: left; 
+    margin-top: 1rem;
+
+}
+/*SSC*/
+.Education .SSC{
+    height: 150px;
+    width: 900px;
+    border: 3px solid white;
+    margin-bottom: 2rem;
+    border-radius: 1.5rem;
+    padding:1.7rem; 
+}
+.SSC  .logo{
+    height: 100px;
+    width: 100px;
+    background-image: url(pancham.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 1.5rem;
+}
+.SSC .details{
+    height: 100px;
+    display: flex;
+}
+.SSC .info{
+    padding-left: 2rem;
+}
+.SSC .heading h2{
+    font-size: 2rem;
+}
+.SSC .para {
+    font-size: 1.6rem;
+    text-align: left;   
+}
+.SSC .duration {
+    font-size: 1.4rem;
+    text-align: left; 
+    margin-top: 0.5rem;
+}
+.SSC .grade{
+    font-size: 1.4rem;
+    text-align: left; 
+    margin-top: 1rem;
+
+}
